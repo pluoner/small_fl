@@ -1,5 +1,5 @@
 fn main() {
-//implement division without use of neither the multiplication or division operators. Only quota, remainder is discarded. Only possitive numbers. 
+//Implement division without use of neither the multiplication or division operators. Only quota, remainder is discarded. Only possitive numbers. 
     println!("my_div: {}", my_div(1024, 2));
     fn my_div(a: u16, b: u16) -> u16 {
         let mut b_exp = 0;
